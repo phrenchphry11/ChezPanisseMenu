@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F44895791C0FAB8300410052 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44895781C0FAB8300410052 /* AppDelegate.swift */; };
+		F448957B1C0FAB8300410052 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448957A1C0FAB8300410052 /* ViewController.swift */; };
+		F448957E1C0FAB8300410052 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F448957C1C0FAB8300410052 /* Main.storyboard */; };
+		F44895801C0FAB8300410052 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F448957F1C0FAB8300410052 /* Images.xcassets */; };
+		F44895831C0FAB8300410052 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F44895811C0FAB8300410052 /* LaunchScreen.xib */; };
+		F448958F1C0FAB8300410052 /* Chez_Panisse_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448958E1C0FAB8300410052 /* Chez_Panisse_MenuTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F44895891C0FAB8300410052 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F448956B1C0FAB8300410052 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F44895721C0FAB8300410052;
+			remoteInfo = "Chez Panisse Menu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F44895731C0FAB8300410052 /* Chez Panisse Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chez Panisse Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F44895771C0FAB8300410052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F44895781C0FAB8300410052 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F448957A1C0FAB8300410052 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F448957D1C0FAB8300410052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F448957F1C0FAB8300410052 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F44895821C0FAB8300410052 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F44895881C0FAB8300410052 /* Chez Panisse MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chez Panisse MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F448958D1C0FAB8300410052 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F448958E1C0FAB8300410052 /* Chez_Panisse_MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chez_Panisse_MenuTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F44895701C0FAB8300410052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44895851C0FAB8300410052 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F448956A1C0FAB8300410052 = {
+			isa = PBXGroup;
+			children = (
+				F44895751C0FAB8300410052 /* Chez Panisse Menu */,
+				F448958B1C0FAB8300410052 /* Chez Panisse MenuTests */,
+				F44895741C0FAB8300410052 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F44895741C0FAB8300410052 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F44895731C0FAB8300410052 /* Chez Panisse Menu.app */,
+				F44895881C0FAB8300410052 /* Chez Panisse MenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F44895751C0FAB8300410052 /* Chez Panisse Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F44895781C0FAB8300410052 /* AppDelegate.swift */,
+				F448957A1C0FAB8300410052 /* ViewController.swift */,
+				F448957C1C0FAB8300410052 /* Main.storyboard */,
+				F448957F1C0FAB8300410052 /* Images.xcassets */,
+				F44895811C0FAB8300410052 /* LaunchScreen.xib */,
+				F44895761C0FAB8300410052 /* Supporting Files */,
+			);
+			path = "Chez Panisse Menu";
+			sourceTree = "<group>";
+		};
+		F44895761C0FAB8300410052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F44895771C0FAB8300410052 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F448958B1C0FAB8300410052 /* Chez Panisse MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				F448958E1C0FAB8300410052 /* Chez_Panisse_MenuTests.swift */,
+				F448958C1C0FAB8300410052 /* Supporting Files */,
+			);
+			path = "Chez Panisse MenuTests";
+			sourceTree = "<group>";
+		};
+		F448958C1C0FAB8300410052 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F448958D1C0FAB8300410052 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F44895721C0FAB8300410052 /* Chez Panisse Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44895921C0FAB8300410052 /* Build configuration list for PBXNativeTarget "Chez Panisse Menu" */;
+			buildPhases = (
+				F448956F1C0FAB8300410052 /* Sources */,
+				F44895701C0FAB8300410052 /* Frameworks */,
+				F44895711C0FAB8300410052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chez Panisse Menu";
+			productName = "Chez Panisse Menu";
+			productReference = F44895731C0FAB8300410052 /* Chez Panisse Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F44895871C0FAB8300410052 /* Chez Panisse MenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F44895951C0FAB8300410052 /* Build configuration list for PBXNativeTarget "Chez Panisse MenuTests" */;
+			buildPhases = (
+				F44895841C0FAB8300410052 /* Sources */,
+				F44895851C0FAB8300410052 /* Frameworks */,
+				F44895861C0FAB8300410052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F448958A1C0FAB8300410052 /* PBXTargetDependency */,
+			);
+			name = "Chez Panisse MenuTests";
+			productName = "Chez Panisse MenuTests";
+			productReference = F44895881C0FAB8300410052 /* Chez Panisse MenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F448956B1C0FAB8300410052 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Holly French";
+				TargetAttributes = {
+					F44895721C0FAB8300410052 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F44895871C0FAB8300410052 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F44895721C0FAB8300410052;
+					};
+				};
+			};
+			buildConfigurationList = F448956E1C0FAB8300410052 /* Build configuration list for PBXProject "Chez Panisse Menu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F448956A1C0FAB8300410052;
+			productRefGroup = F44895741C0FAB8300410052 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F44895721C0FAB8300410052 /* Chez Panisse Menu */,
+				F44895871C0FAB8300410052 /* Chez Panisse MenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F44895711C0FAB8300410052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F448957E1C0FAB8300410052 /* Main.storyboard in Resources */,
+				F44895831C0FAB8300410052 /* LaunchScreen.xib in Resources */,
+				F44895801C0FAB8300410052 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44895861C0FAB8300410052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F448956F1C0FAB8300410052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F448957B1C0FAB8300410052 /* ViewController.swift in Sources */,
+				F44895791C0FAB8300410052 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44895841C0FAB8300410052 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F448958F1C0FAB8300410052 /* Chez_Panisse_MenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F448958A1C0FAB8300410052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F44895721C0FAB8300410052 /* Chez Panisse Menu */;
+			targetProxy = F44895891C0FAB8300410052 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F448957C1C0FAB8300410052 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F448957D1C0FAB8300410052 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F44895811C0FAB8300410052 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F44895821C0FAB8300410052 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F44895901C0FAB8300410052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F44895911C0FAB8300410052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F44895931C0FAB8300410052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chez Panisse Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F44895941C0FAB8300410052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Chez Panisse Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F44895961C0FAB8300410052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chez Panisse MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chez Panisse Menu.app/Chez Panisse Menu";
+			};
+			name = Debug;
+		};
+		F44895971C0FAB8300410052 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Chez Panisse MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chez Panisse Menu.app/Chez Panisse Menu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F448956E1C0FAB8300410052 /* Build configuration list for PBXProject "Chez Panisse Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44895901C0FAB8300410052 /* Debug */,
+				F44895911C0FAB8300410052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F44895921C0FAB8300410052 /* Build configuration list for PBXNativeTarget "Chez Panisse Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44895931C0FAB8300410052 /* Debug */,
+				F44895941C0FAB8300410052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F44895951C0FAB8300410052 /* Build configuration list for PBXNativeTarget "Chez Panisse MenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44895961C0FAB8300410052 /* Debug */,
+				F44895971C0FAB8300410052 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F448956B1C0FAB8300410052 /* Project object */;
+}
