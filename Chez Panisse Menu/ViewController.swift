@@ -14,14 +14,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var dateLabel: UILabel!
     var menuItems: [NSDictionary]?
     var dateHeader: String?
-    
+    let url = NSURL(string: "http://www.chezpanisse.com/menus/cafe-menu/")!
+    let fontName = "Baskerville"
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        titleLabel.font = UIFont(name: "Baskerville", size: 25)
-        dateLabel.font = UIFont(name: "Baskerville", size: 20)
+        titleLabel.font = UIFont(name: fontName, size: 25)
+        titleLabel.textColor = UIColor(red: 0.2392, green: 0.2157, blue: 0.2471, alpha: 1.0)
+        dateLabel.font = UIFont(name: fontName, size: 20)
+        dateLabel.textColor = UIColor(red: 0.6078, green: 0.6196, blue: 0.5843, alpha: 1.0)
 
-        let url = NSURL(string: "http://www.chezpanisse.com/menus/cafe-menu/")!
+        self.view.backgroundColor = UIColor(red: 0.851, green: 0.8314, blue: 0.8039, alpha: 1.0)
+        self.tableView.backgroundColor = UIColor(red: 0.851, green: 0.8314, blue: 0.8039, alpha: 1.0)
+        self.tableView.backgroundView?.backgroundColor = UIColor(red: 0.851, green: 0.8314, blue: 0.8039, alpha: 1.0)
+        
         let request = NSURLRequest(URL: url)
         NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue()) {
             (response: NSURLResponse!, data: NSData!, error: NSError!) -> Void in
@@ -69,17 +76,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 }
             }
             self.dateHeaderLabel.text = self.dateHeader
-            self.tableView.reloadData()
             self.tableView.dataSource = self
             self.tableView.delegate = self
+            self.tableView.reloadData()
         }
-
-
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
     @IBOutlet weak var tableView: UITableView!
